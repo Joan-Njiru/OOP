@@ -14,7 +14,6 @@ class Human (var name:String, var age:Int, var weight:Int) {
         weight+=foodWeight
     }
     fun speak (speech:String){
-        println(speech)
     }
     fun birthday(){
         println(age++)
